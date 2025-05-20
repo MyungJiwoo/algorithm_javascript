@@ -455,3 +455,9 @@
 
   set1.intersection(set2)는 2024년도에 새로나온 문법이라 프로그래머스에서 지원하지 않는다.
   const intersection = s1.filter((x) => s2.includes(x)); <- 이렇게 배열에서 바로 filter를 써도 된다.
+
+2025.05.19
+
+- P120909: 제곱수 판별하기
+
+  Math.sqrt()는 인자에 루트를 씌운다. 이때 정수형이어야 제곱수이기 때문에 Number.isInteger로 판별했다.
